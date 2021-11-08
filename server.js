@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  'mongodb+srv://Chris:12345%21%40%23%24%25cluster0.7brun.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' || 3000 || "mongodb://localhost/budget", 
+  'mongodb+srv://Chris:12345%21%40%23%24%25cluster0.7brun.mongodb.net/BudgetTracker' || 3000 || "mongodb://localhost/BudgetTracker", 
   {
   useNewUrlParser: true,
   useUnifiedTopology: true,
