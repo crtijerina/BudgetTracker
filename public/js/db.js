@@ -1,6 +1,3 @@
-module.exports = {
-  uri : "mongodb+srv://Chris:12345%21%40%23%24%25cluster0.7brun.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"}
-
 const indexedDB =
   window.indexedDB ||
   window.mozIndexedDB ||
